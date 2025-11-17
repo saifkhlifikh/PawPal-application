@@ -1,0 +1,218 @@
+🏠 1. Page d’accueil (Home)
+
+La page d’accueil présente l'application et son objectif.
+Éléments principaux :
+
+Grand bandeau avec le slogan : “La meilleure plateforme pour trouver un pet sitter de confiance.”
+
+Boutons Télécharger l'application, S’inscrire, Devenir pet sitter
+
+Présentation rapide du concept (3–4 icônes : Réserver, Payer, Suivi en direct, Confiance)
+
+Témoignages d’utilisateurs
+
+Section “Pourquoi PawPal ?”
+
+Footer avec liens utiles (FAQ, Contact, CGU, Confidentialité…)
+
+🙋‍♂️ 2. Page “À propos” (About)
+
+Explique la mission, la vision et l’histoire de PawPal.
+Contenu :
+
+Origine du projet
+
+Objectif : aider les propriétaires + créer des opportunités pour pet sitters
+
+Valeurs : sécurité, confiance, transparence
+
+Photos de l’équipe (optionnel)
+
+📱 3. Page “Fonctionnalités” (Features)
+
+Description détaillée de tout ce que propose l’application.
+Divisée en 2 sections :
+
+Pour les propriétaires :
+
+Profil animal
+
+Recherche de sitters
+
+Chat en direct
+
+Paiement sécurisé
+
+Mise à jour photo du pet sitter
+
+Pour les sitters :
+
+Profil professionnel
+
+Disponibilités
+
+Notifications
+
+Avis et notation
+
+Suivi des gains
+
+Visuels : captures d’écran ou mockups de l'app.
+
+🔍 4. Page “Trouver un pet sitter”
+
+Page publique où les utilisateurs peuvent voir les sitters (sans réserver encore).
+Fonctions :
+
+Barre de recherche (ville / code postal)
+
+Filtres : prix, type de service, rating, disponibilité
+
+Liste des sitters avec fiches : photo, note, distance, prix
+
+Bouton “Voir profil”
+
+👤 5. Page profil pet sitter
+
+Page détaillée du sitter.
+Contenu :
+
+Photo + description
+
+Expérience + compétences
+
+Services proposés (promenade, garde à domicile, visites…)
+
+Prix par service
+
+Calendrier de disponibilité
+
+Avis des clients
+
+Bouton “Réserver”
+
+🧑‍🤝‍🧑 6. Page “Devenir pet sitter”
+
+Page d’inscription pour devenir pet sitter.
+Contenu :
+
+Pourquoi devenir sitter
+
+Avantages (gains, flexibilité, assurance…)
+
+Étapes pour s’inscrire
+
+Formulaire ou bouton “Créer un profil sitter”
+
+📝 7. Page d’inscription / connexion (Signup / Login)
+
+Simple et rapide.
+
+Inscription : nom, email, numéro, mot de passe
+
+Option Google / Facebook
+
+Choix du type de compte (propriétaire ou pet sitter)
+
+Connexion : email + mot de passe
+
+🐶 8. Tableau de bord propriétaire (Dashboard Owner)
+
+Accessible après connexion.
+Fonctions :
+
+Aperçu de ses animaux
+
+Réservations en cours
+
+Historique
+
+Messages / Chat
+
+Paiements et factures
+
+Profil + paramètres
+
+🧍 9. Tableau de bord pet sitter (Dashboard Sitter)
+
+Pour gérer ses activités.
+Fonctions :
+
+Calendrier des réservations
+
+Demandes en attente
+
+Messages / Chat
+
+Statistiques de gains
+
+Gestion des services et des prix
+
+Paramètres + vérification de compte
+
+💬 10. Page Messagerie (Chat)
+
+Système de chat intégré.
+
+Envoi de messages
+
+Partage de photos de l’animal
+
+Notification des réponses
+
+Historique des conversations
+
+💳 11. Page Paiement et Réservation
+
+Page quand un propriétaire choisit un service.
+Contenu :
+
+Récapitulatif (date, durée, prix)
+
+Choix du mode de paiement
+
+Validation de la réservation
+
+Confirmation + email
+
+📚 12. Page FAQ (Questions fréquentes)
+
+Répond aux questions :
+
+Comment réserver ?
+
+Comment devenir sitter ?
+
+Comment sont gérés les paiements ?
+
+Sécurité & assurance
+
+📞 13. Page Contact
+
+Formulaire de contact
+
+Email support
+
+Adresse (si besoin)
+
+Liens réseaux sociaux
+
+⚖️ 14. Page CGU / Confidentialité
+
+Pages légales obligatoires :
+
+Conditions générales d’utilisation
+
+Politique de confidentialité
+
+Politique des données
+
+📥 15. Page Téléchargement
+
+Simple page avec les boutons :
+
+Télécharger sur App Store
+
+Télécharger sur Google Play
+
+QR Code vers l’application.

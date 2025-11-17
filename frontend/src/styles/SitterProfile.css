@@ -1,0 +1,163 @@
+.sitter-profile {
+  min-height: 80vh;
+  background: var(--bg);
+  padding: 40px 0;
+}
+
+.profile-header {
+  background: white;
+  padding: 40px 16px;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+  margin-bottom: 40px;
+}
+
+.profile-info {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.profile-photo {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.profile-details h1 {
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.rating-info {
+  color: var(--primary);
+  font-size: 1rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.bio {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.profile-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.content-section {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+}
+
+.content-section h2 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.skill-badge {
+  background: rgba(43, 144, 245, 0.1);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.service {
+  background: rgba(43, 144, 245, 0.05);
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+
+.service h4 {
+  color: var(--text);
+  margin: 0 0 4px 0;
+}
+
+.service p {
+  color: var(--primary);
+  margin: 0;
+  font-weight: 600;
+}
+
+.availability {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.availability-badge {
+  background: var(--success);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.review {
+  background: rgba(255, 176, 32, 0.05);
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+}
+
+.review-text {
+  color: var(--text);
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.review-author {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .profile-info {
+    grid-template-columns: 1fr;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}

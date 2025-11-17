@@ -1,0 +1,155 @@
+.dashboard {
+  padding: 40px 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.dashboard h1 {
+  color: var(--primary);
+  margin-bottom: 32px;
+  font-size: 2rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.dashboard-section {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+}
+
+.dashboard-section h2 {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.dashboard-section h3 {
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.dashboard-section p {
+  color: var(--muted);
+}
+
+.dashboard-section .btn {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.dashboard-section .btn:last-child {
+  margin-bottom: 0;
+}
+
+.pets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.pet-card {
+  display: flex;
+  align-items: center;
+  background: rgba(43, 144, 245, 0.05);
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+
+.pet-icon {
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+.pet-card p {
+  margin: 0;
+}
+
+.pet-card p:first-child {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.bookings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.booking-card {
+  background: rgba(43, 144, 245, 0.05);
+  padding: 16px;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+
+.booking-info p {
+  margin: 0 0 8px 0;
+  color: var(--text);
+}
+
+.booking-info p:first-child {
+  font-weight: 600;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status.confirmé {
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--success);
+}
+
+.status.en\ attente {
+  background: rgba(255, 176, 32, 0.1);
+  color: var(--accent);
+}
+
+.stats {
+  grid-column: 1 / -1;
+  grid-auto-flow: column;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, var(--primary) 0%, #1e5ba8 100%);
+  color: white;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(43, 144, 245, 0.2);
+}
+
+.stat-card h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-column: auto;
+  }
+}

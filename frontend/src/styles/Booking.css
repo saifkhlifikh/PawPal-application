@@ -1,0 +1,160 @@
+.booking-container {
+  padding: 40px 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 80vh;
+  background: var(--bg);
+}
+
+.booking-container h1 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.booking-summary,
+.booking-payment {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+}
+
+.booking-summary h2,
+.booking-payment h2 {
+  color: var(--primary);
+  margin-bottom: 24px;
+  font-size: 1.3rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  color: var(--text);
+  border-bottom: 1px solid rgba(27, 35, 48, 0.05);
+}
+
+.summary-item span {
+  color: var(--muted);
+}
+
+.summary-item strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.summary-divider {
+  height: 1px;
+  background: rgba(27, 35, 48, 0.1);
+  margin: 16px 0;
+}
+
+.summary-item.total {
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.summary-item.total strong {
+  color: var(--primary);
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid rgba(27, 35, 48, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.payment-option:hover {
+  border-color: var(--primary);
+  background: rgba(43, 144, 245, 0.05);
+}
+
+.payment-option.active {
+  border-color: var(--primary);
+  background: rgba(43, 144, 245, 0.1);
+}
+
+.payment-option input {
+  margin-right: 12px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.payment-form {
+  background: rgba(43, 144, 245, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(27, 35, 48, 0.15);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.security-note {
+  color: var(--success);
+  font-size: 0.9rem;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

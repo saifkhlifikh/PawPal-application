@@ -1,0 +1,138 @@
+.find-sitter {
+  min-height: 80vh;
+}
+
+.search-header {
+  background: linear-gradient(135deg, var(--primary) 0%, #1e5ba8 100%);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.search-header h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.search-section {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
+  padding: 40px 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.filter-panel {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+}
+
+.filter-panel h3 {
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(27, 35, 48, 0.15);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.price-range {
+  display: flex;
+  gap: 8px;
+}
+
+.price-range input {
+  flex: 1;
+}
+
+.sitters-list h2 {
+  margin-bottom: 24px;
+  color: var(--text);
+}
+
+.sitters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.sitter-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(19, 24, 29, 0.06);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sitter-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(19, 24, 29, 0.12);
+}
+
+.sitter-photo {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.sitter-card h3 {
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+.sitter-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.service-badge {
+  background: rgba(43, 144, 245, 0.1);
+  color: var(--primary);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .search-section {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-panel {
+    display: none;
+  }
+}

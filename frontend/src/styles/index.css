@@ -1,0 +1,14 @@
+@import './base.css';
+
+/* App-wide basic overrides */
+main { padding: 28px 0; min-height: calc(100vh - 260px); }
+
+.sr-only { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* typography scaling */
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.25rem; }
+
+/* small utility spacing */
+.mt-8 { margin-top: 8px; }
+.mb-16 { margin-bottom: 16px; }
